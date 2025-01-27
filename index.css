@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+    background-color: rgba(0, 0, 255, 0.301);
+}
+
+.container{
+    background-color: rgba(53, 75, 200, 0.559);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 5px rgba(228, 238, 242, 0.816);
+}
+
+h1{
+    text-align: center;
+
+   
+}
+
+button {
+    padding: 6px 7px;
+    background-color: #24087fa1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(17, 6, 97);
+}
+.input-container {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+input[type="text"] {
+    flex: 1;
+    padding: 4px;
+    font-size: 14px;
+   
+    
+}
+
+
+.hidden{
+    display: none;
+}
+
+#error-message{
+    color: rgba(230, 27, 27, 0.8);
+    
+}
