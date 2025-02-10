@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     
 
 
-     const API_KEY = "fcbe54f9b30b6646b93cce55f0d6b3f1"; //api  // env variables
+     //const api  put youe own api key //api  // env variables
 
      getWeatherBtn.addEventListener('click' , async() => {
         const city = cityInput.value.trim()
